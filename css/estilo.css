@@ -1,0 +1,95 @@
+/* Estilo do cabeçalho */
+header {
+  background-color: blue;
+}
+
+/* Estilo dos títulos */
+h1,
+h2 {
+  font-family: serif;
+}
+
+/* Estilo da barra de navegação */
+nav a {
+  font-weight: bold;
+}
+
+/* Estilo da classe .container */
+.container {
+  padding: 20px;
+}
+
+/* Estilo do conteúdo */
+#conteudo {
+  line-height: 1.5;
+}
+
+/* Estilo do formulário de contato */
+form {
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+/* Estilo dos parágrafos */
+p {
+  color: green;
+}
+
+/* Estilo dos botões dentro do formulário */
+form button {
+  background-color: blue;
+  color: white;
+}
+
+/* Estilo do rodapé */
+footer {
+  border-top: 2px solid red;
+}
+
+/* Estilo para o elemento h1 */
+html {
+  font-size: 16px;
+}
+
+header {
+  font-size: 65.5%; /* Ajusta o tamanho da fonte dentro do cabeçalho */
+  background-image: url("../img/banner-css3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1 {
+  color: rgb(245, 8, 8);
+  font-size: 5em;
+  text-align: center;
+}
+
+/* Estilo para a classe .link */
+.link {
+  display: inline-block;
+  margin: 0 5% 0 5%;
+  border: solid 2px red;
+  background-color: rgba(255, 0, 0, 0.2); /* Corrigido o formato da cor */
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in;
+}
+
+.link:hover {
+  background-color: red;
+}
+
+.link a {
+  text-decoration: none;
+  color: red;
+}
+
+.link img {
+  display: inline-block;
+  width: 50%;
+}
+
+/* Estilo para o id #menu */
+#menu ul {
+  text-align: center;
+}
