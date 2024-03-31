@@ -59,6 +59,18 @@ header {
   background-position: center;
 }
 
+body {
+  margin: 0; /* Remove margens padrão */
+  content: ""; /* Adiciona um conteúdo ao pseudo-elemento */
+  background-image: url("../img/fundo.jpg"); /* Define a imagem de fundo */
+  font-family: Arial, sans-serif; /* Define a fonte */
+  background-color: #333; /* Cor de fundo do corpo */
+  color: #fff; /* Cor do texto */
+  padding: 0; /* Remove preenchimento padrão */
+  overflow-x: hidden; /* Evita rolagem horizontal */
+  position: relative; /* Adicionado */
+}
+
 h1 {
   color: rgb(245, 8, 8);
   font-size: 5em;
